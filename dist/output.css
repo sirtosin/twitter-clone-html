@@ -588,6 +588,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-\[\] {
   width: ;
 }
@@ -650,6 +654,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -810,6 +818,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: -3em;
   }
 
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:inline-flex {
     display: inline-flex;
   }
@@ -824,5 +836,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:items-start {
     align-items: flex-start;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
   }
 }
